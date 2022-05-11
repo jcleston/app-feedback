@@ -68,9 +68,30 @@ $ npm run dev
 
 
 ## Utilitários
-
 tailwindcss
+
+$ npm install -D tailwindcss postcss autoprefixer
+$ npx tailwindcss init
+
+
 seguir tutorial: https://tailwindcss.com/docs/installation/using-postcss
+
+adicionar o arquivo global.css dentro de src
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    @apply 
+    bg-violet-500 
+    px-4 
+    h-10 
+    rounded 
+    text-violet-100 
+    hover:bg-violet-700 
+    transition-colors;
+}
+
 
 icones
 npm install phosphor-react
