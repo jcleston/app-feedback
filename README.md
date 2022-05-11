@@ -19,9 +19,15 @@ Uma aplicação para recebimento de Feedbacks
 * [INSTALAÇÃO](#instalação)
   * [node](#node)
   * [npm](#npm)
+  
 * [CRIAÇÃO DO PROJETO](#criação-do-projeto)
   * [React](#react)
+
 * [UTILITÁRIOS](#utilitários)
+  * [tailwindcss](#tailwindcss)
+  * [phosphor](#phosphor)
+  * [headlessui](#headlessui)
+
 * [DESENVOLVIMENTO](#desenvolvimento)
 
 * [AUTOR](#autor)
