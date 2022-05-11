@@ -16,21 +16,21 @@ Uma aplicação para recebimento de Feedbacks
 
 ## Menu Geral
 <!--ts-->
-* [Instalação](#instalação)
+* [INSTALAÇÃO](#instalação)
   * [node](#node)
   * [npm](#npm)
-* [Criação do projeto](#criação-do-projeto)
+* [CRIAÇÃO DO PROJETO](#criação-do-projeto)
   * [React](#react)
-* [Utilitários](#utilitários)
-* [Desenvolvimento](#desenvolvimento)
+* [UTILITÁRIOS](#utilitários)
+* [DESENVOLVIMENTO](#desenvolvimento)
 
-* [Autor](#autor)
-* [Minhas Skills](#minhas-skills)
-* [Estou Aprendendo](#estou-aprendendo)
-* [Contatos](#contatos)
+* [AUTOR](#autor)
+* [MINHAS SKILLS](#minhas-skills)
+* [ESTOU APRENDENDO](#estou-aprendendo)
+* [CONTATOS](#contatos)
 <!--te-->
 
-## Instalação
+## INSTALAÇÃO
 Para iniciar o desenvolvimento, é necessário efetuar as seguintes instalações:
 
 ## node
@@ -47,7 +47,13 @@ $ sudo apt install npm
 $ npm -v
 ```
 
-## Criação do projeto
+<h4 align="right">
+
+[Voltar para o Menu Geral](#menu-geral)
+</h4>
+
+
+## CRIAÇÃO DO PROJETO
 ## React
 ```shell
 $ mkdir nome_diretorio
@@ -66,21 +72,36 @@ $ npm install
 $ npm run dev
 ```
 
+<h4 align="right">
 
-## Utilitários
+[Voltar para o Menu Geral](#menu-geral)
+</h4>
+
+
+## UTILITÁRIOS
 ## tailwindcss
 Biblioteca css completa
 ```shell
 $ npm install -D tailwindcss postcss autoprefixer
 $ npx tailwindcss init -p
 ```
+Obs: Para integrar o css basta adicionar o arquivo global.css dentro de src com o seguinte código:
+```shell
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 Documentação oficial no link: <a href="https://tailwindcss.com/docs/installation/using-postcss">www.tailwindcss.com</a>
+<br /><br />
+
 
 ## phosphor
 Pacote de icones
 ```shell
 $ npm install phosphor-react
 ```
+<br />
+
 
 ## headlessui
 Pacote para acessibilidade
@@ -88,33 +109,18 @@ Pacote para acessibilidade
 $ npm install @headlessui/react
 ```
 Obs: fazer a importação no arquivo do component usando a linha:
+<br />
+
+
 ```shell
 import {Popover} from '@headlessui/react';
 ```
 Documentação oficial no link: <a href="https://headlessui.dev/react/popover">www.headlessui.dev</a>
+<br /><br />
 
 
-
-## Desenvolvimento
-adicionar o arquivo global.css dentro de src
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.button{
-    @apply 
-    bg-violet-500 
-    px-4 
-    h-10 
-    rounded 
-    text-violet-100 
-    hover:bg-violet-700 
-    transition-colors;
-}
-
-
-
-
+## DESENVOLVIMENTO
+em construção...
 
 
 
@@ -123,7 +129,7 @@ adicionar o arquivo global.css dentro de src
 [Voltar para o Menu Geral](#menu-geral)
 </h4>
 
-## Autor
+## AUTOR
 <img src="https://avatars.githubusercontent.com/u/13952621?v=4" width="100px;" alt=""/>
 <br />
 <sub><b><a href="https://www.linkedin.com/in/janescleston/" title="LinkedIn">Janes Cleston</a></b></sub> 🚀
@@ -131,7 +137,7 @@ adicionar o arquivo global.css dentro de src
 Feito com ❤️ por Janes Cleston 👋🏽
 <br /><br />
 
-## Minhas Skills
+## MINHAS SKILLS
 <a href="https://pt.wikipedia.org/wiki/Linux"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt.wikipedia.org/wiki/HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt.wikipedia.org/wiki/CSS3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
@@ -142,12 +148,12 @@ Feito com ❤️ por Janes Cleston 👋🏽
 <a href="https://github.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50"/></a>
 <br /><br />
 
-## Estou aprendendo
+## ESTOU APRENDENDO
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" width="50"/></a>
 <br /><br />
 
-## Contatos
+## CONTATOS
 <div>
 <a href="https://www.linkedin.com/in/janescleston/" target="blank"><img src="https://img.shields.io/badge/-Janes Cleston-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://www.instagram.com/jcleston/" target="blank"><img src="https://img.shields.io/badge/-Jcleston-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
