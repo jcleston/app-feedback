@@ -96,7 +96,7 @@ Documentação oficial no link: <a href="https://tailwindcss.com/docs/installati
 
 
 ## phosphor
-Pacote de icones
+Pacote de icones do React
 ```shell
 $ npm install phosphor-react
 ```
