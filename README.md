@@ -82,6 +82,19 @@ Pacote de icones
 $ npm install phosphor-react
 ```
 
+## headlessui
+Pacote para acessibilidade
+```shell
+$ npm install @headlessui/react
+```
+Obs: fazer a importação no arquivo do component usando a linha:
+```shell
+import {Popover} from '@headlessui/react';
+```
+Documentação oficial no link: <a href="https://headlessui.dev/react/popover">www.headlessui.dev</a>
+
+
+
 ## Desenvolvimento
 adicionar o arquivo global.css dentro de src
 @tailwind base;
