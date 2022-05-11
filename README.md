@@ -72,7 +72,7 @@ $ npm run dev
 Biblioteca css completa
 ```shell
 $ npm install -D tailwindcss postcss autoprefixer
-$ npx tailwindcss init
+$ npx tailwindcss init -p
 ```
 Documentação oficial no link: <a href="https://tailwindcss.com/docs/installation/using-postcss">www.tailwindcss.com</a>
 
