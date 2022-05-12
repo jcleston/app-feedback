@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply bg-[#89898A] text-zinc-100
+    @apply bg-[#121212] text-zinc-100
 }
 
 .button{
