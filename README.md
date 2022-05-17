@@ -27,6 +27,7 @@ Uma aplicação para recebimento de Feedbacks
   * [tailwindcss](#tailwindcss)
   * [phosphor](#phosphor)
   * [headlessui](#headlessui)
+  * [bibliotecas usadas](#bibliotecas-usadas)
 
 * [DESENVOLVIMENTO](#desenvolvimento)
 
@@ -134,6 +135,11 @@ import {Popover} from '@headlessui/react';
 Documentação oficial no link: <a href="https://headlessui.dev/react/popover">www.headlessui.dev</a>
 <br /><br />
 
+## bibliotecas usadas
+html2canvas
+```shell
+npm install html2canvas
+```
 
 ## DESENVOLVIMENTO
 em construção...
