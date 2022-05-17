@@ -34,7 +34,8 @@ export function FeedbackContentStep({
 
             <form className="my-4 w-full">
                 <textarea
-                
+                    className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400"
+                    placeholder="Texto aqui"
                 />
             </form>
         </>
