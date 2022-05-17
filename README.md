@@ -100,6 +100,16 @@ Obs: Para integrar o css basta adicionar o arquivo global.css dentro de src com 
 Documentação oficial no link: <a href="https://tailwindcss.com/docs/installation/using-postcss">www.tailwindcss.com</a>
 <br /><br />
 
+Outros utilitários do tailwind
+```shell
+npm install @tailwindcss/forms
+npm install --save-dev tailwind-scrollbar 
+```
+
+Atualizar o tailwind.config.js adicionando nos plugins:
+
+require('@tailwindcss/forms'),
+require('tailwind-scrollbar'),
 
 ## phosphor
 Pacote de icones do React
